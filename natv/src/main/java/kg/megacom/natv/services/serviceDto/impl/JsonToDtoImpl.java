@@ -18,10 +18,6 @@ public class JsonToDtoImpl implements JsonToDto {
     @Autowired
     private DtoToEntity dtoToEntity;
 
-    @Override
-    public ChannelDto jsonToPojoDto1() throws IOException {
-        return null;
-    }
 
     @Override
     public List<ChannelDto> jsonToPojoDto() throws IOException {
